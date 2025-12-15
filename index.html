@@ -47,8 +47,8 @@
             
             try {
                 // Отправляем данные на наш сервер-посредник
-                // ВАЖНО: замените URL на адрес вашего сервера (это сделаем в шаге 5)
-                const response = await fetch('https://ваш-сервер.onrender.com/send-message', {
+    
+                const response = await fetch('https://telegram-bot-server-tsjk.onrender.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -87,4 +87,5 @@
         }
     </script>
 </body>
+
 </html>
